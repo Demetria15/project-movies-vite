@@ -91,7 +91,7 @@ p{
     grid-template-columns: repeat(4, 1fr); 
   }
   img{
-    width: 700px;
+    width: 350px;
   }
 }
 
@@ -121,7 +121,7 @@ p{
   }
 
   img{
-    width: 400px;
+    width: 250px;
   }
 
   .movie-image img {
