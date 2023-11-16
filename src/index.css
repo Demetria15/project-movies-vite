@@ -132,5 +132,10 @@ p{
   .button {
     margin-top: 20px;
   }
+
+  .movie-info p {
+    font-size: 14px;
+    margin: 8px 0;
+  }
 }
 
