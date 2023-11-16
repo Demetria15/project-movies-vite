@@ -136,6 +136,7 @@ p{
   .movie-info p {
     font-size: 14px;
     margin: 8px 0;
+    word-wrap: break-word;
   }
 }
 
