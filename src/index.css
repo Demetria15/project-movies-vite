@@ -7,10 +7,16 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+
 
 body {
   background-color: #000;
@@ -108,25 +114,21 @@ p{
 /* Small screens (mobile) */
 @media (max-width: 600px) {
   .movie-list {
-    grid-template-columns: 1fr; 
+    grid-template-columns: 1fr;
   }
 
   .movie-content {
-    flex-direction: column; 
-    align-items: center; 
+    flex-direction: column;
+    align-items: left;
   }
 
   .movie-info {
-    text-align: left; 
+    text-align: left;
   }
 
-  img{
-    width: 400px;
-  }
-
-  .movie-image img {
-    width: 100%; 
-    max-width: 350px; 
+  img {
+    width: 100%;
+    max-width: 4000px;
   }
 
   .button {
@@ -134,9 +136,15 @@ p{
   }
 
   .movie-info p {
-    font-size: 14px;
+    font-size: 12px;
     margin: 8px 0;
     word-wrap: break-word;
   }
-}
 
+  .movie-details {
+    max-width: 100%; /* Set a maximum width for the container */
+    overflow-x: hidden; /* Hide horizontal overflow */
+    padding: 16px;
+    word-wrap: break-word; /* Allow words to break onto the next line */
+  }
+}
